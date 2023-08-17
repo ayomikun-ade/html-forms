@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>Implemtation of HTML Forms</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Your Address</legend>
+          <p>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" class="align" /><br />
+          </p>
+          <p>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" class="align" /><br />
+          </p>
+          <p>
+            <label for="street">Street</label>
+            <input type="text" id="street" class="align" /><br />
+          </p>
+          <p>
+            <label for="city">City</label>
+            <input type="text" id="city" class="align" /><br />
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Details</legend>
+          <p>
+            <label for="bio">Biography</label>
+            <textarea id="bio" class="align"></textarea><br />
+          </p>
+          <p>
+            <label for="image">Image</label>
+            <input
+              type="file"
+              id="image"
+              accept="image/*"
+              class="align"
+            /><br />
+          </p>
+          <p>
+            <label for="age">Age Group</label>
+            <select id="age" class="align">
+              <option>Select</option>
+              <option value="">0 to 9 Years</option>
+              <option value="">10 to 15 Years</option>
+              <option value="">16 to 19 Years</option>
+              <option value="">20 to 25 Years</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Interests</legend>
+          <p>
+            <label for="hobby">Hobbies</label>
+            <input type="text" class="align" /><br />
+          </p>
+          <p>
+            <label for="car">Favorite Car?</label>
+            <select id="car" class="align">
+              <option>Select</option>
+              <option>Volvo</option>
+              <option>Mercedes Benz</option>
+              <option>Toyota</option>
+              <option>BMW</option></select
+            ><br />
+          </p>
+          <p>
+            <label for="transport">Favorite Public Transport</label>
+            <input type="text" id="transport" class="align" />
+          </p>
+        </fieldset>
+        <input type="submit" id="btn" />
+      </form>
+    </main>
+  </body>
+</html>

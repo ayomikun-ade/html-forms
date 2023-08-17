@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+  border-bottom: 1px solid coral;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.align {
+  position: absolute;
+  left: 400px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+#image,
+#age {
+  margin-top: 15px;
+}
+
+#btn {
+  margin: 10px;
+  padding: 15px;
+  width: 7em;
+  border: none;
+  border-radius: 12px;
+  background-color: coral;
+  font-size: 20px;
+}
+#btn:hover {
+  background-color: grey;
+  font-weight: 600;
+}

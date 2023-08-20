@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <h1>Implemtation of HTML Forms</h1>
+      <h1>Implementation of HTML Forms</h1>
     </header>
     <main>
       <form>
@@ -63,7 +63,6 @@
           <legend>Interests</legend>
           <p id="hobbies">
             <label for="hobby">Hobbies</label>
-            <!-- <input type="text" class="align" /><br /> -->
             <select id="hobby" class="align" multiple>
               <option>Playing Soccer</option>
               <option>Dancing</option>
@@ -81,9 +80,14 @@
               <option>BMW</option></select
             ><br />
           </p>
-          <p>
+          <p id="trans">
             <label for="transport">Favorite Public Transport</label>
-            <input type="text" id="transport" class="align" />
+            <select id="transport" class="align" multiple>
+              <option id="opt1">Ground</option>
+              <option class="tab">Train</option>
+              <option class="tab">Bus</option>
+              <option id="opt2">Water</option>
+            </select>
           </p>
         </fieldset>
         <input type="submit" id="btn" />

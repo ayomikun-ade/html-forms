@@ -22,8 +22,18 @@ p {
   margin-top: 15px;
 }
 
-#hobbies {
+#hobbies,
+#trans {
   margin-bottom: 65px;
+}
+
+#opt1,
+#opt2 {
+  font-weight: bold;
+}
+
+.tab {
+  padding-left: 12px;
 }
 
 #btn {

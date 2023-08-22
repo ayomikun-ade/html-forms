@@ -16,19 +16,19 @@
           <legend>Your Address</legend>
           <p>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" class="align" /><br />
+            <input type="text" id="fname" class="align" required /><br />
           </p>
           <p>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" class="align" /><br />
+            <input type="text" id="lname" class="align" required /><br />
           </p>
           <p>
             <label for="street">Street</label>
-            <input type="text" id="street" class="align" /><br />
+            <input type="text" id="street" class="align" required /><br />
           </p>
           <p>
             <label for="city">City</label>
-            <input type="text" id="city" class="align" /><br />
+            <input type="text" id="city" class="align" required /><br />
           </p>
         </fieldset>
 
@@ -36,7 +36,7 @@
           <legend>Additional Details</legend>
           <p>
             <label for="bio">Biography</label>
-            <textarea id="bio" class="align"></textarea><br />
+            <textarea id="bio" class="align" required></textarea><br />
           </p>
           <p>
             <label for="image">Image</label>
@@ -45,11 +45,12 @@
               id="image"
               accept="image/*"
               class="align"
+              required
             /><br />
           </p>
           <p>
             <label for="age">Age Group</label>
-            <select id="age" class="align">
+            <select id="age" class="align" required>
               <option>Select</option>
               <option value="">0 to 9 Years</option>
               <option value="">10 to 15 Years</option>
@@ -68,6 +69,8 @@
               <option>Dancing</option>
               <option>Gardening</option>
               <option>Watching Movies</option>
+              <option>Playing Games</option>
+              <option>Coding</option>
             </select>
           </p>
           <p>
@@ -83,10 +86,14 @@
           <p id="trans">
             <label for="transport">Favorite Public Transport</label>
             <select id="transport" class="align" multiple>
-              <option id="opt1">Ground</option>
-              <option class="tab">Train</option>
-              <option class="tab">Bus</option>
-              <option id="opt2">Water</option>
+              <optgroup label="Ground">
+                <option>Train</option>
+                <option>Bus</option>
+              </optgroup>
+              <optgroup label="Water">
+                <option>Canoe</option>
+                <option>Ship</option>
+              </optgroup>
             </select>
           </p>
         </fieldset>

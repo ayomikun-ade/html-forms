@@ -27,16 +27,27 @@ p {
   margin-bottom: 65px;
 }
 
-#btn {
+#sub,
+#res {
   margin: 10px;
   padding: 15px;
   width: 7em;
   border: none;
   border-radius: 12px;
-  background-color: coral;
   font-size: 20px;
 }
-#btn:hover {
+#sub {
+  background-color: coral;
+}
+
+#sub:hover {
   background-color: grey;
   font-weight: 600;
+}
+
+#res {
+  background-color: grey;
+}
+#res:hover {
+  background-color: crimson;
 }
